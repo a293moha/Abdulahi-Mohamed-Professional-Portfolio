@@ -2,7 +2,11 @@ header {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif
 }
-
+.image-container {
+    width: auto;
+    height: auto;
+    background-image: c:(\Users\abdul\Downloads\abdulahi_image.jpg);
+}
 .navbar-container {
     width: auto;
     background-color: tan;
@@ -26,4 +30,8 @@ nav ul {
     text-align: left;
     display: flex;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    main
 }
