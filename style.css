@@ -35,9 +35,9 @@ nav ul {
     justify-content: space-around;
 }
 
-@media screen and (max-width: 768px) {
-    main
-}
+@media screen and (max-width: 768px) {}
+
 footer {
     background-color: tan;
+    text-align: center;
 }
