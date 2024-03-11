@@ -1,10 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif
 }
 .image-container {
-    width: auto;
-    height: auto;
+    width: 20%%;
+    height: 20%;
     background-image: c:(\Users\abdul\Downloads\abdulahi_image.jpg);
 }
 .img {
@@ -19,13 +23,13 @@ header {
 .navbar {
     max-width: none;
     margin: 0;
-    padding: 0px;
+    padding: 1%;
 }
 
 .navbar ul {
     list-style-type: none;
     margin: auto;
-    padding: 5%
+    padding: 1%
 }
 
 nav ul {
@@ -34,6 +38,7 @@ nav ul {
     display: flex;
     justify-content: space-around;
 }
+
 
 @media screen and (max-width: 768px) {}
 
