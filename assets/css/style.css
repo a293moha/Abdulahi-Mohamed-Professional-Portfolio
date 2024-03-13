@@ -1,7 +1,11 @@
+@media screen and (min-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}
 * {
     box-sizing: border-box;
 }
-
 header {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif
@@ -14,29 +18,22 @@ header {
 .img {
     height: 200px;
     width: 300px;
-}
-* {
-    overflow: auto;
-    overflow-clip-margin: content-box;
-}
+}  
 .navbar-container {
     width: auto;
     background-color: tan;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
 }
-
 .navbar {
     max-width: none;
     margin: 0;
     padding: 1%;
 }
-
 .navbar ul {
     list-style-type: none;
     margin: auto;
     padding: 1%
 }
-
 nav ul {
     padding: 10%;
     text-align: left;
@@ -47,7 +44,7 @@ nav ul {
     background-color: khaki;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     align-items: left;
 }
 
@@ -55,14 +52,11 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
 }
-
 .contact-item {
     flex: 0 0 50%;
     padding: 10px;
     border: 1px solid #ccc;
 }
-@media screen and (max-width: 768px) {}
-
 footer {
     background-color: tan;
     text-align: center;
