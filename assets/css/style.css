@@ -57,6 +57,11 @@ p {
     align-items: center;
     border-style: solid;
 }
+.screenshot {
+    border: 2px;
+    border-style: solid;
+    padding: 20px;
+}
 div {
     display: block;
     margin-bottom: 10px;
