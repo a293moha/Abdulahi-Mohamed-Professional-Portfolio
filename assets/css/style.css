@@ -53,15 +53,23 @@ p {
     background-color: khaki;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border-style: solid;
+}
+section h2 {
+    margin: 10px 0;
+}
+section p {
+    margin: 10px 0;
+}
+section div {
+    margin: 10px 0;
 }
 .screenshot {
     max-width: auto;
     height: auto;
-    display: block;
-    margin: 0 auto;
+    margin: 10 auto;
 }
 div {
     display: block;
