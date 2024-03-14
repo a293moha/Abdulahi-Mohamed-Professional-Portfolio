@@ -55,6 +55,7 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    border-style: solid;
 }
 div {
     display: block;
@@ -67,7 +68,6 @@ div {
     display: block;
     margin-bottom: 5px;
     text-decoration: none;
-    color: red;
 }
 a:link {
     color: blue;
@@ -78,6 +78,7 @@ a:link, a:visited {
 }
 a:hover, a:active {
     background-color: lightcoral;
+    text-decoration: underline;
 }
 footer {
     background-color: tan;
