@@ -58,9 +58,10 @@ p {
     border-style: solid;
 }
 .screenshot {
-    border: 2px;
-    border-style: solid;
-    padding: 20px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 div {
     display: block;
