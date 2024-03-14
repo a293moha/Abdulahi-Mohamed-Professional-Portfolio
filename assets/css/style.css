@@ -31,6 +31,9 @@ header {
     padding: 0%;
     border-style: outset;
 }
+li {
+    display: inline;
+}
 .navbar ul {
     list-style-type: none;
     margin: auto;
@@ -42,6 +45,10 @@ nav ul {
     display: flex;
     justify-content: space-around;
 }
+p {
+    font-family: 'calibri';
+    font-size: 20px;
+}
 .section {
     background-color: khaki;
     display: flex;
@@ -49,14 +56,28 @@ nav ul {
     justify-content: center;
     align-items: center;
 }
-.contact-list {
-    display: flex;
-    flex-wrap: wrap;
+div {
+    display: block;
+    margin-bottom: 10px;
 }
-.contact-item {
-    flex: 0 0 50%;
-    padding: 10px;
-    border: 1px solid #ccc;
+.contact-list {
+    margin-top: 10px;
+}
+.contact-list a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: red;
+}
+a:link {
+    color: blue;
+}
+a:link, a:visited {
+    display: block;
+    margin-bottom: 10px;
+}
+a:hover, a:active {
+    background-color: lightcoral;
 }
 footer {
     background-color: tan;

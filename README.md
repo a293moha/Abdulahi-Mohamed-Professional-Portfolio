@@ -1,6 +1,6 @@
 # Abdulahi Mohamed Professional Portfolio
 
-    Welcome to my professional portfolio
+    Welcome to my professional portfolio ⭐
 
 [Link to the deployed website](https://a293moha.github.io/Abdulahi-Mohamed-Professional-Portfolio/)
 
